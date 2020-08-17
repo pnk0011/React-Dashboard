@@ -1,0 +1,98 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+
+.flex-container > div {
+  background-color: red;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.revenue-button {
+  display: flex;
+  height: 27px;
+  margin-top: 17px;
+  margin-left: 10%;
+}
+
+.revenue-percentage {
+  display: flex;
+  flex-direction: row;
+}
+.btn {
+  display: flex;
+}
+
+.upward-arrow {
+  margin-top: 4px;
+  color: green;
+
+  font-weight: bolder;
+  margin-right: 2px;
+}
+
+.revenue-all-time {
+  font-size: 8px;
+  margin-top: -25px;
+  margin-left: 5px;
+}
+
+.downward-arrow {
+  margin-top: 4px;
+  color: red;
+
+  font-weight: bolder;
+  margin-right: 2px;
+}
+
+.stats-small__data__margin-top {
+  margin-top: 10px;
+}
+
+.stats-small__label {
+  color: white;
+}
+
+.sms-sent {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.align-doughnut-data {
+  font-weight: bolder;
+  margin-top: 5px;
+}
+.doughnut-text-data {
+  font-size: xx-small;
+}
+
+.dashboard_toal-sale {
+  font-size: xx-small;
+}
+
+.dashboard_toal-sale-count {
+  font-size: x-large;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.dashboard_toal-sale-percentage {
+  margin-top: 12px;
+  color: green;
+  font-family: sans-serif;
+}
+
+.last30-days-dropdown {
+  margin-top: 12px;
+}
+
+.revenue-text-color {
+  color: white;
+  font-family: sans-serif;
+}
